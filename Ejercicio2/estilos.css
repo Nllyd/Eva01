@@ -1,0 +1,17 @@
+#Encabezado{
+    text-align: center;
+    color:black;
+    
+}
+#enviar{
+    background-color: rgb(4, 134, 255);
+    color: white;
+}
+#limpiar{
+    background-color: rgb(115, 120, 126);
+    color: white;
+}
+.card-header{
+    text-align: center;
+    color:black;
+}

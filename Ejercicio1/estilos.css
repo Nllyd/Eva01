@@ -1,0 +1,29 @@
+h6{
+    color:rgb(22, 146, 218);
+    margin-top: 15px;
+}
+
+h3{
+    color:rgb(5, 62, 128);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    display: block;
+}
+
+#Economia{
+    text-decoration: underline;
+    text-decoration-color: rgb(5, 62, 128);
+    font-weight: bold;
+}
+
+#ver-mas{
+    text-decoration:none;
+    color: rgb(5, 62, 128);
+    font-weight: bold;
+}
+

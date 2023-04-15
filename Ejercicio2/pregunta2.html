@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5">
+                <div class="card">
+                    <div class="card-header">
+                        <div id="Encabezado" class="card-title">
+                            <h2>Datos del Usuario</h2>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form action="pregunta2.php" method="post">
+                            <div class="form-group">
+                                <label>Nombre y apellido</label>
+                                <input id="usuario" name="usuario" class="form-control" placeholder="Nombre del usuario" required>    
+                            </div>
+                            <div class="form-group mt-3">
+                                <label>Direccion</label>
+                                <input id="direccion" name="direccion" class="form-control" placeholder="Direccion del usuario" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label>E-mail</label>
+                                <input id="email" name="email" type="email" class="form-control" placeholder="Correo Electronico" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label>Edad</label>
+                                <input id="num3" name="edad" type="number" class="form-control" placeholder="18" required min="18">
+                            </div>
+                            
+                            <div>
+                                    <button id="enviar" type="submit" class="btn mt-3" onclick="return pregunta2()">Enviar</button>
+                                    <button id="limpiar" type="reset" class="btn mt-3">Limpiar</button>
+                            </div>
+                        </form>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+                        <script src="pregunta2.js"></script> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html>
